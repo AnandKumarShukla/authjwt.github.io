@@ -119,15 +119,15 @@ class userController{
                 let mailTransporter = nodemailer.createTransport({
                     service: 'gmail',
                     auth: {
-                        user: 'anandkumarshukla632@gmail.com',
-                        pass: 'xoiucmlwusbktaty'
+                        user: 'xyz@gmail.com',
+                        pass: 'xyz'
                     }
                 });
                  
                 let mailDetails = {
-                    from: 'anandkumarshukla632@gmail.com',
-                    to: 'anandkumarshukla632@gmail.com',
-                    subject: 'GeekShop: Password Reset Link',
+                    from: 'xyz@gmail.com',
+                    to: 'xyz@gmail.com',
+                    subject: 'xyz: Password Reset Link',
                     html: `<a href=${link}>Click Here</a> to reset your password`,
 
                 };
